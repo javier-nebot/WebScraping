@@ -2,12 +2,13 @@
 Tutorial extraido del curso gratuito Udemy ["The Ultimate Web ScrapingWith Python Bootcamp 2024"](https://www.udemy.com/course/mastering-web-scraping-using-python-the-complete-course/)
 
 ## Indice
-* [Descripción](#descripción)
+* [Descripción](#descripción) 
 * [Instalación](#instalación)
-* [Finding Techniques](#finding-techniques)
-* [Beautiful Soup](#beautiful-soup)
+* [Section 3: Tecnicas de hallazgo de datos para recuperar datos de la web](#section-3-tecnicas-de-hallazgo-de-datos-para-recuperar-datos-de-la-web)
+* [Section 4: Implementando Web Scraping Python con Beautiful Soup](#section-4-implementando-web-scraping-python-con-beautiful-soup)
     * [Parsers](#parsers)
     * [Accediendo a los elemntos Html](#accediendo-a-los-elementos-html)
+* [Section 5: Construir un Web Scraper Python utilizando Selectolax](#section-5-construir-un-web-scraper-python-utilizando-selectolax)
 
 
 
@@ -18,7 +19,7 @@ Web scraping o raspado web es una técnica utilizada mediante programas de softw
 ## Instalación
 
 
-## Finding Techniques
+## Section 3: Tecnicas de hallazgo de datos para recuperar datos de la web
 Como encontrar el esquema de la pagina web para el Web Scraping.
 
 * HTML Page Source:
@@ -38,7 +39,7 @@ Alguna webs publican la lista de todas las paginas de su web en formato estructu
 Nos permite conocer que paginas no quieren ser visibles o utilizadas por el propietario. Podemos conocerlas poniendo "robots.txt" al final de la URL.
 
 
-## Beautiful Soup
+## Section 4: Implementando Web Scraping Python con Beautiful Soup
 Libreria Python utilizada para web scraping.
 
 Es buena practica crear un ambiente virtual de Python antes de instalar Beautiful Soup para evitar conflictos con otras versiones de libreias en el sistema.
@@ -85,7 +86,7 @@ Esta basado en C, conocido por su velocidad y habilidad para manejar grandes doc
     soup = BeautifulSoup(html_doc, 'html5lib')
     print(soup.p.string)
     ```
-    En la carpeta se encuentra el fichero "bs4Parser.py".
+    *En la carpeta se encuentra el fichero "bs4Parser.py".*
 
 La selección de un analizador u otro, dependerá de las necesidades específicas del proyecto, como son el tamaño y la complejidad del documento HTML, asi como la deseada velocidad de análisis.
 
@@ -153,3 +154,24 @@ a_tag = soup.find('a')
 path = [e.name for e in a_tag.find_parents()[::-1]]
 path.append(a_tag.name)
 ```
+
+### **Proyecto: Recuperar todos los links de la pagina wikipedia utilizando BeautifulSoup.**
+
+El fichero "wikiLinks_Scraper.py" se encuentra en la carpeta.
+
+
+
+## Section 5: Construir un Web Scraping con Python utilizando Selectolax
+
+
+
+## Section 6: Como realizar un Python Web Scraping utilizando Slenium
+
+
+
+## Section 7: Como utilizar Playwright para Web Scraping con Python
+
+
+## Section 8: BUenas practicas generales a seguir cuando se realiza un Web Scraping.
+
+## Section 9: Temas avanzados del Web Scraping
