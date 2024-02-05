@@ -9,7 +9,10 @@ Tutorial extraido del curso gratuito Udemy ["The Ultimate Web ScrapingWith Pytho
     * [Parsers](#parsers)
     * [Accediendo a los elemntos Html](#accediendo-a-los-elementos-html)
 * [Section 5: Construir un Web Scraper Python utilizando Selectolax](#section-5-construir-un-web-scraper-python-utilizando-selectolax)
-
+* [Sección 6: Como realizar un Python Web Scraping utilizando Slenium ](#sección-6-como-realizar-un-python-web-scraping-utilizando-slenium)
+* [Sección 7: Como utilizar Playwright para Web Scraping con Python](#sección-7-como-utilizar-playwright-para-web-scraping-con-python)
+* [Sección 8: Buenas practicas generales a seguir cuando se realiza un Web Scraping](#sección-8-buenas-practicas-generales-a-seguir-cuando-se-realiza-un-web-scraping)
+* [Sección 9: Temas avanzados del Web Scraping](#sección-9-temas-avanzados-del-web-scraping)
 
 
 
@@ -17,7 +20,9 @@ Tutorial extraido del curso gratuito Udemy ["The Ultimate Web ScrapingWith Pytho
 Web scraping o raspado web es una técnica utilizada mediante programas de software para extraer información de sitios web.​ Usualmente, estos programas simulan la navegación de un humano en la World Wide Web ya sea utilizando el protocolo HTTP manualmente, o incrustando un navegador en una aplicación
 
 ## Instalación
+--
 
+--
 
 ## Section 3: Tecnicas de hallazgo de datos para recuperar datos de la web
 Como encontrar el esquema de la pagina web para el Web Scraping.
@@ -161,17 +166,17 @@ El fichero "wikiLinks_Scraper.py" se encuentra en la carpeta.
 
 
 
-## Section 5: Construir un Web Scraping con Python utilizando Selectolax
+## Sección 5: Construir un Web Scraping con Python utilizando Selectolax
 
 
 
-## Section 6: Como realizar un Python Web Scraping utilizando Slenium
+## Sección 6: Como realizar un Python Web Scraping utilizando Slenium
 
 
 
-## Section 7: Como utilizar Playwright para Web Scraping con Python
+## Sección 7: Como utilizar Playwright para Web Scraping con Python
 
 
-## Section 8: BUenas practicas generales a seguir cuando se realiza un Web Scraping.
+## Sección 8: Buenas practicas generales a seguir cuando se realiza un Web Scraping.
 
-## Section 9: Temas avanzados del Web Scraping
+## Sección 9: Temas avanzados del Web Scraping
